@@ -1,1 +1,33 @@
-{"name":"com.playdarium.spreadsheet-downloader","displayName":"Spreadsheet Downloader","version":"1.0.0","unity":"2021.3","description":"","keywords":["google","spreadsheets","utils","database"],"category":"Unity","author":{	"name":"Playdarium",	"email":"playdarium@gmail.com",	"url":"https://playdarium.com"}}
+{
+  "name": "com.playdarium.spreadsheet-downloader",
+  "version": "1.0.0",
+  "displayName": "Spreadsheet Downloader",
+  "description": "Make possible download Google Speadsheets using Google App Script",
+  "category": "Unity",
+  "unity": "2021.3",
+  "homepage": "https://github.co/",
+  "documentationUrl": "https://github.co//README.md",
+  "changelogUrl": "https://github.co//CHANGELOG.md",
+  "licensesUrl": "https://github.co//LICENSE",
+  "keywords": [
+    "google",
+    "spreadsheets",
+    "utils",
+    "database"
+  ],
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.0.0"
+  },
+  "author": {
+    "name": "Playdarium",
+    "email": "playdarium@gmail.com",
+    "url": "https://playdarium.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.co/.git"
+  },
+  "bugs": {
+    "url": "https://github.co//issues"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.jeffcampbellmakesgames.packagetools" : "https://github.com/jeffcampbellmakesgames/unity-package-tools.git#release/stable",
+    "com.playdarium.package-tool": "1.0.2",
     "com.unity.collab-proxy": "2.1.0",
     "com.unity.editorcoroutines": "1.0.0",
     "com.unity.feature.2d": "2.0.0",
@@ -43,5 +43,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Playdarium",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.playdarium"
+      ]
+    }
+  ]
 }
