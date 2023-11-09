@@ -11,6 +11,6 @@ namespace Playdarium.SpreadsheetDownloader
 		public string spreadsheet = "";
 
 		public string password = "passcode";
-		public float timeout = 20f;
+		public int timeout = 20;
 	}
 }
