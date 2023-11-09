@@ -1,5 +1,19 @@
 # Changelog
 
+---
+
+## [v1.1.0](https://github.com/Playdarium/spreadsheet-downloader/releases/tag/v0.0.0)
+
+### Added
+
+- Using `Schema` in download google spreadsheet script
+
+### Fixed
+
+- Process exceptions in serialization method
+
+---
+
 ## [v1.0.0](https://github.com/Playdarium/spreadsheet-downloader/releases/tag/v0.0.0)
 
 ### Added

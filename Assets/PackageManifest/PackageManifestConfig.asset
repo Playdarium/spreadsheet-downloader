@@ -23,7 +23,7 @@ MonoBehaviour:
   legacyPackageDestinationPath: 
   packageName: com.playdarium.spreadsheet-downloader
   displayName: Spreadsheet Downloader
-  packageVersion: 1.0.0
+  packageVersion: 1.1.0
   unityVersion: 2021.3
   description: Make possible download Google Speadsheets using Google App Script
   category: Unity

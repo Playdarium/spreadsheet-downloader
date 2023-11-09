@@ -7,7 +7,7 @@ namespace Playdarium.SpreadsheetDownloader.Helpers
 	public abstract class SingleSpreadsheetDownloader : SpreadsheetDownloader
 	{
 		protected abstract string SpreadsheetName { get; }
-		
+
 		public override void DownloadAndSerialize()
 		{
 			EditorUtility.DisplayProgressBar("Download", $"Table: {SpreadsheetName}...", 0);
@@ -31,6 +31,10 @@ namespace Playdarium.SpreadsheetDownloader.Helpers
 				Serialize(json);
 				serializedObject.ApplyModifiedProperties();
 				success = true;
+			}
+			catch (Exception e)
+			{
+				Debug.LogException(e);
 			}
 			finally
 			{
