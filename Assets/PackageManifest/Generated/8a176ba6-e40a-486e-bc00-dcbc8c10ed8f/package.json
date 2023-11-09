@@ -1,6 +1,6 @@
 {
   "name": "com.playdarium.spreadsheet-downloader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "displayName": "Spreadsheet Downloader",
   "description": "Make possible download Google Speadsheets using Google App Script",
   "category": "Unity",

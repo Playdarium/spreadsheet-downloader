@@ -2,6 +2,14 @@
 
 ---
 
+## [v1.1.1](https://github.com/Playdarium/spreadsheet-downloader/releases/tag/v0.0.0)
+
+### Fixed
+
+- Start download coroutine ownerless
+
+---
+
 ## [v1.1.0](https://github.com/Playdarium/spreadsheet-downloader/releases/tag/v0.0.0)
 
 ### Added

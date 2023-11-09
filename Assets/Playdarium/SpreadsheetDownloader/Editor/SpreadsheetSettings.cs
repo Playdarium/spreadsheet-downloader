@@ -2,7 +2,7 @@
 
 namespace Playdarium.SpreadsheetDownloader
 {
-	[CreateAssetMenu(menuName = "Settings/Spreadsheet", fileName = "SpreadsheetsSettings")]
+	[CreateAssetMenu(menuName = "Settings/Spreadsheet", fileName = nameof(SpreadsheetSettings))]
 	public class SpreadsheetSettings : ScriptableObject
 	{
 		[Tooltip("Address of macros script")] public string url = "";

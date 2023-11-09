@@ -16,7 +16,7 @@ namespace Playdarium.SpreadsheetDownloader
 
 		protected virtual void OnDisable()
 		{
-			if(_loadRoutine != null)
+			if (_loadRoutine != null)
 				EditorCoroutineUtility.StopCoroutine(_loadRoutine);
 		}
 
@@ -35,12 +35,12 @@ namespace Playdarium.SpreadsheetDownloader
 		protected void Load(string sheet, Action<string> onComplete)
 		{
 			_onComplete = onComplete;
-			_loadRoutine = EditorCoroutineUtility.StartCoroutine(Connect(sheet), this);
+			_loadRoutine = EditorCoroutineUtility.StartCoroutineOwnerless(Connect(sheet));
 		}
 
 		private IEnumerator Connect(string sheet)
 		{
-			var assets = AssetDatabase.FindAssets("SpreadsheetsSettings");
+			var assets = AssetDatabase.FindAssets($"t:{nameof(SpreadsheetSettings)}");
 			if (assets.Length == 0)
 				throw new Exception("Create SpreadsheetsSettings with name \"SpreadsheetsSettings\"");
 
